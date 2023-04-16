@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gossipfox</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="http://localhost:800/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+  </head>
+  <body class="cntnt">
+    <nav>
+      <img class="logo" src="./pikachu-transparent-32599.png" />
+    </nav>
+    <div class="pera">Welcome to the Gossipfox</div>
+    <div class="container"></div>
+    <div>
+      <form id="send-container" method="post">
+        <input
+          type="text"
+          name="mesgin"
+          placeholder="Send message to Anyone"
+          id="mesgin"
+        />
+        <button type="submit" class="btn">send</button>
+      </form>
+    </div>
+  </body>
+</html>

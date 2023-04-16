@@ -1,0 +1,79 @@
+.cntnt {
+  height: 100vh;
+  background-image: linear-gradient(aqua, orange);
+}
+.logo {
+  height: 10rem;
+  width: 15rem;
+  margin: auto;
+  display: block;
+}
+.pera {
+  text-align: center;
+  justify-content: center;
+  font-size: 4vh;
+  font-weight: 500;
+  font-style: inherit;
+  color: rgb(232, 28, 255);
+}
+.container {
+  max-width: 940px;
+  margin: auto;
+  height: 60vh;
+  padding: 33px;
+  overflow-y: auto;
+  margin-bottom: 23px;
+}
+
+.message {
+  border: 1px solid rgb(114, 9, 226);
+  width: 50%;
+  padding: 15px;
+  color: rgb(3, 50, 144);
+  margin: 5px;
+  border-radius: 15px;
+  box-shadow: 5px 2px 5px rosybrown;
+  text-shadow: 2px 2px 5px rgb(10, 249, 145);
+}
+.mid {
+  justify-content: center;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  clear: both;
+  background-color: lightseagreen;
+  color: indigo;
+}
+.left {
+  background-image: linear-gradient(aqua, rgb(254, 173, 23));
+  float: left;
+  clear: both;
+}
+.right {
+  background-image: linear-gradient(aqua, rgb(254, 173, 23));
+  float: right;
+  clear: both;
+}
+#send-container {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+#mesgin {
+  width: 60%;
+  border: 3px solid grey;
+  border-radius: 5vh;
+  height: 24px;
+}
+
+input {
+  background-color: greenyellow;
+  outline: none;
+}
+.btn {
+  cursor: pointer;
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+  width: 3%;
+}
