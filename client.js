@@ -1,4 +1,4 @@
-const socket = io("https://curious-trifle-79c470.netlify.app/");
+const socket = io("http://localhost:800");
 const form = document.getElementById("send-container");
 const messageInput = document.getElementById("mesgin");
 const messageContainer = document.querySelector(".container");
