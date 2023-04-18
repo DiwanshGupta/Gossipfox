@@ -1,7 +1,7 @@
 // server for Gosssipfox
 const io = require("socket.io")(800, {
   cors: {
-    origin: "https://curious-trifle-79c470.netlify.app/",
+    origin: "https://poetic-concha-7258be.netlify.app/",
     allowedHeaders: ["my-custom-header"],
     credentials: true,
   },
