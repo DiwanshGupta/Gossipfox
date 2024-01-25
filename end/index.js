@@ -1,7 +1,7 @@
 // server for Gosssipfox
 const io = require("socket.io")(800, {
   cors: {
-    origin: "https://poetic-concha-7258be.netlify.app/",
+    origin: "*",
     allowedHeaders: ["my-custom-header"],
     credentials: true,
   },
